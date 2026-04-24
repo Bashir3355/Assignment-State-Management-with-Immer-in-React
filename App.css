@@ -1,0 +1,72 @@
+/* Page style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+/* Main box */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+}
+
+/* Add button */
+.add-btn {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* List layout */
+.list {
+  display: grid;
+  gap: 15px;
+}
+
+/* Each item card */
+.card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+/* Item name */
+.card h2 {
+  margin-top: 0;
+}
+
+/* Buttons */
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+/* Button row */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Remove button */
+.remove {
+  background: #dc2626;
+}
+
+/* Empty message */
+.empty {
+  text-align: center;
+  color: #666;
+}
